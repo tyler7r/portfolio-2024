@@ -79,11 +79,11 @@ export default function Home() {
             This is the place where I wanted to share some of my favorite
             projects. Many done through the Odin Project curriculum but some
             engineered completely by myself! My favorite tools right now
-            include: NextJS, Supabase, Vercel, React, Javascript, Material UI
-            and Tailwind. I also work with HTML, CSS, Node, Express and MongoDB.
-            My work demonstrates my proficiency with these skills and highlights
-            some of my passions outside of development as well. Thanks for
-            checking it out!
+            include: NextJS, Supabase, Vercel, React, Typescript, Material UI
+            and Tailwind. I also work with HTML, CSS, Javascript, Node, Express
+            and MongoDB. My work demonstrates my proficiency with these skills
+            and highlights some of my passions outside of development as well.
+            Thanks for checking it out!
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
