@@ -5,7 +5,7 @@ import { orange, purple, red } from "@mui/material/colors";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import Headshot from "../public/Headshot.png";
+import Headshot from "../public/portfolio-main.png";
 
 export default function Home() {
   const router = useRouter();
@@ -63,8 +63,7 @@ export default function Home() {
       <Image
         src={Headshot}
         style={{ borderRadius: "50%" }}
-        height={500}
-        width={500}
+        height={300}
         alt="Headshot"
       />
       <div className="flex flex-col gap-2 items-center justify-center">
