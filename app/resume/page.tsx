@@ -32,7 +32,7 @@ const Resume = () => {
             <div className={descriptionContainer}>
               <div>Overall GPA: 3.89</div>
               <div>
-                Zell Miller Scholarship Recipient, Presidential Scholar, Dean's
+                Zell Miller Scholarship Recipient, Presidential Scholar, Dean
                 List (6 Semesters)
               </div>
             </div>
@@ -186,7 +186,7 @@ const Resume = () => {
             </div>
             <div className={titleContainer}>
               <Link href="https://www.watchufa.com/hustle">
-                <div className={heading3}>The Atlanta Hustle</div>
+                <div className={heading3}>Atlanta Hustle</div>
               </Link>
               <div className={date}>March 2022 - Present</div>
             </div>
