@@ -12,7 +12,6 @@ export type FormDataType = {
 };
 
 const Contact = () => {
-  // const { register, handleSubmit } = useForm<FormData>();
   const [data, setData] = useState<FormDataType>({
     name: "",
     email: "",
