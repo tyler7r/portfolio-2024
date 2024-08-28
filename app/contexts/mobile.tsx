@@ -37,7 +37,6 @@ export const IsMobile = ({ children }: MobileProps) => {
   });
 
   useEffect(() => {
-    console.log(window.innerWidth);
     if (window.innerWidth <= 480) {
       setIsMobile({
         isMobile: true,

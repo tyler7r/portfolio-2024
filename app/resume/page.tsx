@@ -15,7 +15,7 @@ const Resume = () => {
   const date = "font-bold text-orange-600 text-sm";
 
   return (
-    <div className="px-4 flex flex-col gap-4">
+    <div className="px-4 py-2 flex flex-col gap-4">
       <div className="font-bold text-orange-600 text-5xl">resume</div>
       <div className="flex flex-col gap-4 px-2">
         <div className={sectionContainer}>
