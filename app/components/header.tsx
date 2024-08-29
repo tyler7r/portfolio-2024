@@ -21,12 +21,15 @@ const Header = () => {
       {isMobile ? (
         <div className="flex flex-col">
           <div className="flex w-full justify-between">
-            <div
-              onClick={() => void router.push("/")}
-              className="text-2xl font-bold cursor-pointer"
-            >
-              <Image src={Logo} alt="site logo" height={50} />
-              TYLER RANDALL
+            <div className="text-2xl font-bold flex gap-2 items-center">
+              <Image
+                style={{ cursor: "pointer" }}
+                src={Logo}
+                alt="site logo"
+                height={25}
+                onClick={() => void router.push("/")}
+              />
+              <div>TYLER RANDALL</div>
             </div>
             <IconButton size="small" onClick={() => setIsMenuOpen(!isMenuOpen)}>
               <MenuIcon />
