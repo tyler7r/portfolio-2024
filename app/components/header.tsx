@@ -1,7 +1,9 @@
 "use client";
 
+import Logo from "@/public/Portfolio Logo.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Divider, IconButton } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -23,6 +25,7 @@ const Header = () => {
               onClick={() => void router.push("/")}
               className="text-2xl font-bold cursor-pointer"
             >
+              <Image src={Logo} alt="site logo" height={50} />
               TYLER RANDALL
             </div>
             <IconButton size="small" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -59,11 +62,15 @@ const Header = () => {
         </div>
       ) : (
         <div className="flex items-center justify-between">
-          <div
-            onClick={() => void router.push("/")}
-            className="text-2xl sm:text-4xl font-bold flex-1 cursor-pointer"
-          >
-            TYLER RANDALL
+          <div className="text-2xl sm:text-4xl font-bold flex-1 flex items-center gap-2 cursor-default">
+            <Image
+              style={{ cursor: "pointer" }}
+              src={Logo}
+              alt="site logo"
+              height={30}
+              onClick={() => void router.push("/")}
+            />
+            <div>TYLER RANDALL</div>
           </div>
           <div className="flex gap-2 sm:text-lg flex-wrap font-bold text-slate-700">
             <Link href="/">
